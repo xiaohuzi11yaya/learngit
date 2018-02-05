@@ -1,0 +1,534 @@
+{
+	"ghinfo" : 
+	{
+		"IMPORTANT" : "MODIFYING THIS FILE WILL RESULT IN FAILING TEST",
+		"SITE" : "CWCQ",
+		"PRODUCT" : "N27D",
+		"BUILD_STAGE" : "MP",
+		"BUILD_SUBSTAGE" : "",
+		"REMOTE_ADDR" : "172.37.52.52",
+		"LOCATION" : "D05-1FCRT",
+		"LINE_NUMBER" : "01/SWEE",
+		"LINE_ID" : "D05-1FCRT-01",
+		"LINE_NAME" : "D05-1FCRT-01/SWEE",
+		"LINE_TYPE" : "FATP",
+		"LINE_MANAGER_IP" : "",
+		"STATION_NUMBER" : "1",
+		"STATION_TYPE" : "SHIPPING-SETTINGS",
+		"DISPLAY_NAME" : "",
+		"DEPARTMENT" : "",
+		"STATION_TYPE_DISPLAY" : "Shipping Settings",
+		"SCREEN_COLOR" : "olive",
+		"STATION_IP" : "172.37.52.52",
+		"DCS_IP" : "17.239.56.39",
+		"PDCA_IP" : "17.239.56.39",
+		"KOMODO_IP" : "17.239.60.120",
+		"KOMODO_ID" : 23,
+		"ACTIVATION_IP" : "17.238.57.65",
+		"NTP_IP" : "17.238.56.67",
+		"NTP2_IP" : "17.238.56.68",
+		"SPIDERCAB_IP" : "17.238.57.69",
+		"FUSING_IP" : "",
+		"DROPBOX_IP" : "17.239.60.120",
+		"DEMO_IP" : "172.37.254.54",
+		"SFC_IP" : "172.36.1.200",
+		"SFC_URL" : "http://172.36.1.200/bobcatservice.svc/request?",
+		"PROV_IP" : "17.238.57.68",
+		"RAT_IP" : "",
+		"ALDER_IP" : "17.238.57.71",
+		"JMETDS_IP" : "",
+		"MARINA_IP" : "",
+		"LINECONTROLLER_IP" : "",
+		"MATCHMAKER_IP" : "17.238.57.70",
+		"SKYNET_IP" : "",
+		"TTRS_IP" : "",
+		"DATE_TIME" : "",
+		"TIMESTAMP" : 1501029109,
+		"STATION_ID" : "CWCQ_D05-1FCRT-01_1_SHIPPING-SETTINGS",
+		"URI_CONFIG_PATH" : "",
+		"GROUNDHOG_IP" : "172.37.253.50",
+		"MAC" : "0c:4d:e9:b5:30:6c",
+		"GHLS_VERSION" : "5.0.150",
+		"SAVE_BRICKS" : "OFF",
+		"LOCAL_CSV" : "OFF",
+		"REALTIME_PARAMETRIC" : "OFF",
+		"SINGLE_CSV_UUT" : "OFF",
+		"BOBCAT_DIRECT" : "ON",
+		"RAT_DIRECT" : "OFF",
+		"FIREWALL" : "ON",
+		"USB_STORAGE" : "OFF",
+		"RAFT_LINE" : "OFF",
+		"CONTROL_RUN" : "OFF",
+		"CONTROL_RUN_CB" : "OFF",
+		"GDADMIN" : "OFF",
+		"SEND_BLOBS_ON_FAIL_ONLY" : "OFF",
+		"SEND_BLOBS_ON" : "ON",
+		"BOBCAT_ACORN" : "OFF",
+		"SFC_QUERY_UNIT_ON_OFF" : "ON",
+		"STATION_SET_CONTROL_BIT_ON_OFF" : "ON",
+		"CONTROL_BITS_TO_CHECK_ON_OFF" : "ON",
+		"FDR_TO_CHECK_ON_OFF" : "ON",
+		"CONTROL_BITS_TO_CLEAR_ON_PASS_ON_OFF" : "ON",
+		"CONTROL_BITS_TO_CLEAR_ON_FAIL_ON_OFF" : "ON",
+		"SFC_TIMEOUT" : 5,
+		"FERRET_NOT_RUNNING_TIMEOUT" : 780,
+		"NETWORK_NOT_OK_TIMEOUT" : 1800,
+		"GHSI_LASTUPDATE_TIMEOUT" : 345600,
+		"FERRET_TIMEOUT" : 120,
+		"TIME_NOT_OK_TIMEOUT" : 28800,
+		"MAX_PDATA_TESTS_ALLOWED" : 105000,
+		"MAX_BLOB_SIZE_ALLOWED_IN_BYTES" : 104857600,
+		"MAX_NUMBER_BLOBS" : 100,
+		"SIGNATURE_EXPIRATION" : 1501381909,
+		"SIGNATURE_VERSION" : "1",
+		"TIMEZONE" : "Asia/Shanghai",
+		"FDRUCA_IP" : "17.238.57.73",
+		"FDRDS_IP" : "17.238.57.75",
+		"FDRUSS_IP" : "17.238.57.74",
+		"FDR_REGISTRATION" : "1",
+		"GH_STATION_NAME" : "N27D SHIPPING-SETTINGS",
+		"GROUNDHOG_NAT_IP" : "172.37.253.50",
+		"LAST_RESTORED" : "2017-07-22 07:23:30",
+		"GROUNDHOG_STARTED" : "",
+		"LIVE_VERSION" : "16",
+		"LIVE_CURRENT" : "16",
+		"LIVE_SCHEDULED" : "0",
+		"LIVE_VERSION_PATH" : "/Volumes/HedgehogRepo/Live",
+		"STATION_OVERLAY" : "20170718_035606_n27d shipping-settings_Ghostfish14V753_N27D_Ghostfish14V753_N28D_DCSD-360.21_CORE-OS_SCM_PRPOR-SIGN-Newkey_YH-GF_TA2-DRS_RT-NEXP",
+		"STATION_OSX_IMAGE" : "Yosemite_10.10.3_tsbi_14D131_v8",
+		"STATION_BASE_OVERLAY" : "20160708_003405_default-osx_B_1-S_1.1.137-F_5.8.172-M_8-A_30-L_6",
+		"STATION_CORE_OVERLAY" : "",
+		"STATION_SUPPLEMENTAL_OVERLAY" : "",
+		"STATION_FDR_OVERLAY" : "",
+		"system_message" : {}
+	},
+	"parachute" : 
+	{
+		"IP_MSG_ERROR_NETWORK_NOT_RESPONDING" : 1,
+		"IP_MSG_ERROR_ETHERNET_NOT_RESPONDING" : 1,
+		"IP_MSG_ERROR_INVALID_STATION_TYPE" : 0,
+		"IP_MSG_ERROR_INVALID_SW_VERSION" : 0,
+		"IP_MSG_ERROR_INVALID_IP_VERSION" : 0,
+		"IP_MSG_ERROR_INVALID_FERRET_VERSION" : 0,
+		"IP_MSG_ERROR_FERRET_NOT_RUNNING" : 1,
+		"IP_MSG_ERROR_DCS_NOT_RESPONDING" : 1,
+		"IP_MSG_ERROR_PDCA_NOT_RESPONDING" : 1,
+		"IP_MSG_ERROR_SFC_QUERY_UNIT" : 1,
+		"IP_MSG_ERROR_INVALID_SERIAL_NUMBER" : 1,
+		"IP_MSG_ERROR_API_UNHANDLED" : 1,
+		"IP_MSG_ERROR_API_SYNTAX" : 1,
+		"IP_MSG_ERROR_FILESYSTEM" : 1,
+		"IP_MSG_ERROR_UNIT_OUT_OF_PROCESS" : 1,
+		"IP_MSG_ERROR_INVALID_DATA_FORMAT" : 1,
+		"IP_MSG_ERROR_INVALID_SIGNATURE" : 1,
+		"IP_MSG_ERROR_TIMESERVER_NOT_RESPONDING" : 1
+	},
+	"dc_routes" : [ 
+		{
+		"type" : "SFC",
+		"priority" : 3,
+		"URI" : "172.36.1.200/bobcatservice.svc/request?"
+		},
+		{
+		"type" : "BLOB",
+		"priority" : 2,
+		"URI" : "localhost//LocalUnitData/import/CALIBRATION-DATA-XVT/"
+		},
+		{
+		"type" : "TSR",
+		"priority" : 2,
+		"URI" : "icdserver:7800"
+		},
+		{
+		"type" : "ATTR",
+		"priority" : 2,
+		"URI" : "icdserver:7800"
+		},
+		{
+		"type" : "PDATA",
+		"priority" : 2,
+		"URI" : "icdserver:7800"
+		}
+	],
+	"controlbits" :
+	{
+		"version" : 1,
+		"CONTROL_BITS_TO_CHECK" : ["0x00","0x2E","0x20","0x15","0x1A","0x13","0x2D","0x69","0x6A","0x6B","0x6C","0x6D","0x77","0x79","0x78","0x72","0x82","0x97","0xB5","0xB7","0x99","0x9A","0xA5","0xA3","0xA7","0x8D","0x8E","0x90","0xDA","0xDC","0xD8","0xC6","0xC1","0xB0","0xB6"],
+		"CONTROL_BITS_TO_CLEAR_ON_PASS" : [],
+		"CONTROL_BITS_TO_CLEAR_ON_FAIL" : [],
+		"CONTROL_BITS_STATION_NAMES" : ["DFU-NAND-INIT","SMT-QT0","S-COND","WIFI-BT-COND","WIFI-COND","SMT-BURNIN","COMBINE-FCT","QT0","SA-FACT","QT-COIL","QT-BCM","QT-BCM2","QT1-PREBURN","RAT","TILT1","PAT2B","QT2-PREBURN","IMU","BURNIN","LOG-COLLECTION","ALS-CAL","ALS-TEST","TAP","FACT","TRAP","GRAPE-CAL-POST","GRAPE-TEST-POST","O-TEST","BUTTON-CAL","LEDA","BACK-SENSOR-CAL","S-OTA","WIFI-BT-OTA","DISPLAY-POSTBURN","MMI"],
+		"STATION_FAIL_COUNT_ALLOWED" : -1
+	},
+	"groundhog_day" :
+	{
+		"event_timestamp" : 0
+	},
+	"attr_dictionary": [
+        {
+            "attr_name": "fixture_id",
+            "attr_type": "test_station_attributes",
+            "bobcat_alias": "fixture_id",
+            "length": 16,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "head_id",
+            "attr_type": "test_station_attributes",
+            "bobcat_alias": "test_head_id",
+            "length": 8,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "OS_BUILD_VERSION_SS",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "os_bundle_version",
+            "length": 64,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "IMEI",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "imei",
+            "length": 15,
+            "type": "int"
+        },
+        {
+            "attr_name": "DEVICE_ID",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "device_id",
+            "length": 64,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "UDID",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "udid",
+            "length": 64,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "ECID",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "ecid",
+            "length": 18,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "ICC_ID",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "iccid",
+            "length": 20,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "WIFI_MAC_ADDR",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "wifi_mac_address",
+            "length": 17,
+            "type": "MAC"
+        },
+        {
+            "attr_name": "BT_MAC_ADDR",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "bt_mac_address",
+            "length": 17,
+            "type": "MAC"
+        },
+        {
+            "attr_name": "EOUSB_MAC_ADDR",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "usb_mac_address",
+            "length": 17,
+            "type": "MAC"
+        },
+        {
+            "attr_name": "USB-ETHER_MAC_ADDR",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "usb_mac_address",
+            "length": 17,
+            "type": "MAC"
+        },
+        {
+            "attr_name": "MPN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "mpn",
+            "length": 8,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "REGION_CODE",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "region_code",
+            "length": 8,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "S_BUILD",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "sbuild",
+            "length": 64,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "UNIT#",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "sbuild_unit",
+            "length": 4,
+            "type": "int"
+        },
+        {
+            "attr_name": "NANDID",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "nandid",
+            "length": 20,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "OPTS",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "hwconfig",
+            "length": 512,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "WiFI/BT Vendor",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "wifivendor",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "CLRC",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "clrc",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "BB_SNUM",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "bb_snum",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "BB_FIRMWARE_VERSION",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "bb_firmware_version",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "MT_MODULE_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "grp_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "LCM_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "lcg_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "CG_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "cg_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "BAND_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "band_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "BAN_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "ban_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "BATTERY_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "battery_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "BATTERY_CHEM_ID",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "battery_chemid",
+            "length": 64,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "FRONT NVM BARCODE",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "front_nvm_barcode",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "BACK NVM BARCODE",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "back_nvm_barcode",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "bobcat_signature",
+            "attr_type": "test_attributes",
+            "bobcat_alias": "bobcat_signature",
+            "length": 0,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "CFSN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "external_sn",
+            "length": 0,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "Golden_Unit_Candidate",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "golden_unit_candidate",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "WIFI_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "wifi_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "VBOOST_LEFT",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "vboost_left",
+            "length": 6,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "VBOOST_RIGHT",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "vboost_right",
+            "length": 6,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "VPBR_LEFT",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "vpbr_left",
+            "length": 6,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "VPBR_RIGHT",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "vpbr_right",
+            "length": 6,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "NUGGET_CHIP_ID",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "nugget_chip_id",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "MESA_CHIP_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "mesa_id",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "MESA_MODULE_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "mesa_module_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "MID_PLATE_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "mid_plate_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "id_in",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "id_in",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "CG_CAL_DATA",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "cg_cal_data",
+            "length": 2048,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "PREVIOUS_MLB_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "previous_mlb_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "PREVIOUS_FG_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "previous_fg_sn",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "USB_CURRENT_CAL",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "usb_current_cal",
+            "length": 64,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "STATION_STRING",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "station_string",
+            "length": 128,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "MOPED",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "moped",
+            "length": 64,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "packout_control",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "packout_control",
+            "length": 32,
+            "type": "varchar"
+        },
+        {
+            "attr_name": "ORB_SN",
+            "attr_type": "uut_attributes",
+            "bobcat_alias": "orb_sn",
+            "length": 32,
+            "type": "varchar"
+        }
+    ],
+	"signature" : "6d7f6f7e67bb4e03a08f8360eb58c1f12c8ea0cf92277f9d06f0a3262469af4b8a23da5784a218752f2325018714084d9f9d72030cb03acbaa10be10f0e5e282ce1a3f4683529666afa8c08c7ce1373081d82d2934b201024e833519a57b871192913b755c7e508fc7f7e5d38ebef7c796bef6ae5d1e570a150e13d8efe19b42",
+	"digest" : "8a0d9d02eec6c6c4a8c0cfdb273beb62596c05bd"
+}

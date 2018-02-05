@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoRun</key>
+	<string>YES</string>
+	<key>logPath</key>
+	<string>/Users/swee/Desktop/LOG</string>
+	<key>CMD</key>
+	<string>sleep -s -w vbus</string>
+	<key>SFC_URL</key>
+	<string>http://172.36.1.200/bobcatservice.svc/request?</string>
+</dict>
+</plist>
